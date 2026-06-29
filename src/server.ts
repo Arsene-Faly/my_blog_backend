@@ -3,18 +3,21 @@ import "dotenv/config";
 import { config } from "@/config/app.config";
 import { connectDatabase } from "@/database/database";
 import app from "@/app";
-// import AuthSessionModel from "./modules/auth/models/AuthSession.model";
 
-const PORT = config.PORT || 8001;
+const PORT = process.env.PORT || config.PORT || 8001;
 
 async function bootstrap() {
-  app.listen(PORT, async() => {
+  try {
     await connectDatabase();
-    console.log(`Server is running on port ${PORT}`);
-  });
+
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+
+  } catch (error) {
+    console.error("Failed to start server:", error);
+    process.exit(1);
+  }
 }
 
-
 bootstrap();
-
-

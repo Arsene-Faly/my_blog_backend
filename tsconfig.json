@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    /* =========================
+     📁 STRUCTURE DU PROJET
+    ========================= */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "ignoreDeprecations": "6.0",
+
+    "typeRoots": ["./node_modules/@types", "./src/shared/types"],
+
+    /* =========================
+     ⚙️ NODE MODERNE (ESM)
+    ========================= */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "moduleDetection": "force",
+
+    /* =========================
+     🔐 TYPE SAFETY (niveau senior)
+    ========================= */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* =========================
+     📦 TYPES NODE
+    ========================= */
+    "types": ["node"],
+
+    /* =========================
+     🔄 MODULE INTEROP
+    ========================= */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* =========================
+     🧠 COMPILATION & PERF
+    ========================= */
+    "skipLibCheck": true,
+    "isolatedModules": true,
+
+    /* =========================
+     🧾 DEBUG / BUILD OUTPUT
+    ========================= */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* =========================
+     🚫 CLEAN CODE RULES
+    ========================= */
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* =========================
+     📦 PATH ALIAS (FIX ICI 🔥)
+    ========================= */
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+
+    "verbatimModuleSyntax": false
+  },
+
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "test"]
+}

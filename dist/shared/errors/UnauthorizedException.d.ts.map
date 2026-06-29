@@ -1,0 +1,1 @@
+{"version":3,"file":"UnauthorizedException.d.ts","sourceRoot":"","sources":["../../../src/shared/errors/UnauthorizedException.ts"],"names":[],"mappings":"AACA,OAAO,EAAa,aAAa,EAAE,MAAM,+BAA+B,CAAC;AACzE,OAAO,EAAE,QAAQ,EAAE,QAAQ,EAAE,MAAM,0BAA0B,CAAC;AAE9D,qBAAa,qBAAsB,SAAQ,QAAQ;gBAE/C,OAAO,GAAE,MAA8B,EACvC,SAAS,GAAE,aAA6C,EACxD,MAAM,GAAE,QAAa;CASxB"}

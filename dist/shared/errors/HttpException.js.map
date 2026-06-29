@@ -1,0 +1,1 @@
+{"version":3,"file":"HttpException.js","sourceRoot":"","sources":["../../../src/shared/errors/HttpException.ts"],"names":[],"mappings":";;;AAGA,uDAAoD;AAEpD,MAAa,aAAc,SAAQ,mBAAQ;IACvC,YACI,OAAe,EACf,UAA8B,EAC9B,SAAwB;QAEzB,KAAK,CAAC,OAAO,EAAE,UAAU,EAAE,SAAS,CAAC,CAAC;IACzC,CAAC;CACJ;AARD,sCAQC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"BadRequestException.d.ts","sourceRoot":"","sources":["../../../src/shared/errors/BadRequestException.ts"],"names":[],"mappings":"AACA,OAAO,EAAa,aAAa,EAAE,MAAM,+BAA+B,CAAC;AACzE,OAAO,EAAE,QAAQ,EAAE,MAAM,0BAA0B,CAAC;AAEpD,qBAAa,mBAAoB,SAAQ,QAAQ;gBAE7C,OAAO,GAAE,MAAsB,EAC/B,SAAS,GAAE,aAA0C,EACrD,MAAM,GAAE,MAAM,CAAC,MAAM,EAAE,MAAM,CAAM;CAItC"}

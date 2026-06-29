@@ -1,1 +1,0 @@
-{"version":3,"file":"template.d.ts","sourceRoot":"","sources":["../../../src/mailers/templates/template.ts"],"names":[],"mappings":"AAEA,KAAK,yBAAyB,GAAG;IAC7B,GAAG,EAAE,MAAM,CAAC;IACZ,UAAU,CAAC,EAAE,MAAM,CAAC;IACpB,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,aAAa,CAAC,EAAE,MAAM,CAAC;CAC1B,CAAA;AAED,eAAO,MAAM,mBAAmB,GAAI,+CAKjC,yBAAyB;;;CAwR3B,CAAC"}
